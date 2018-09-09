@@ -77,7 +77,7 @@
             "virtualApplications": [
               {
                 "virtualPath": "/",
-                "physicalPath": "site\\wwwroot\\dist\\website"
+                "physicalPath": "site\\wwwroot"
               }
             ],
             "use32BitWorkerProcess": true
@@ -92,8 +92,6 @@
             "[concat('Microsoft.Web/Sites/', parameters('siteName'), '/config/web')]"
           ],
           "properties": {
-            "NPM_CONFIG_BUNDLER": "rollup",
-            "RUNNING_ON_AZURE": "true",
             "HOST": "0.0.0.0",
             "WEBSITE_NODE_DEFAULT_VERSION": "8.0.0"
           }
