@@ -1,11 +1,13 @@
 /* eslint-disable no-console */
 
+// This file is duplicated from nuxt/bin/nuxt-start and modified.
+
 const fs = require('fs')
 const parseArgs = require('minimist')
 const { resolve } = require('path')
 
-const { Nuxt, Utils } = require('nuxt')
-const { loadNuxtConfig, getLatestHost } = require('nuxt/bin/common/utils')
+const { Nuxt, Utils } = require('nuxt')  // original path is '..'
+const { loadNuxtConfig, getLatestHost } = require('nuxt/bin/common/utils') // original path is './common/utils'
 
 const argv = parseArgs(process.argv.slice(2), {
   alias: {
