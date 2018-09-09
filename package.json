@@ -4,6 +4,10 @@
   "description": "Nuxt.js project",
   "author": "horihiro <hori.kawa.shima.tool+github@gmail.com>",
   "private": true,
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.6.0"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
