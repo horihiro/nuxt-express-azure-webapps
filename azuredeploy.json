@@ -92,7 +92,6 @@
             "[concat('Microsoft.Web/Sites/', parameters('siteName'), '/config/web')]"
           ],
           "properties": {
-            "HOST": "0.0.0.0",
             "WEBSITE_NODE_DEFAULT_VERSION": "8.0.0"
           }
         },
