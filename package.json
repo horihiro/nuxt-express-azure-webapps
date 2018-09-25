@@ -20,7 +20,7 @@
     "axios": "^0.18.0",
     "cross-env": "^5.0.1",
     "express": "^4.15.3",
-    "nuxt": "https://github.com/horihiro/nuxt.js.git",
+    "nuxt": "latest",
     "source-map-support": "^0.4.15"
   },
   "devDependencies": {
